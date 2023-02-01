@@ -2,16 +2,17 @@
 -------------------------*/
 body {
 	color: #343434;
+	font-family: Georgia, Arial;
 }
 
 p {
-	font-size:16px;
+	font-size:18px;
 }
 img	{
 width: 300px;
 }
 a {
-	color: #FFE66D;
+	color: #19A3BC;
 }
 a:hover {
 	text-decoration: none;
@@ -20,15 +21,31 @@ a:hover {
 /* Profile
 -------------------------*/
 header {
-background: #2F3061;
-color: #F7FFF7;
-
+background: #199DBC;
+color: #000000;
+font-size: 22px;
+padding: 5px;
+text-align: center;
+line-height: 24px;
+border: 2px solid #000000;
 }
+
+
+.front	{
+font-size: 22px;	
+}
+
+.head3{
+font-size: 20px;	
+}
+
 
 /* Projects
 -------------------------*/
 .projects {
 	background: #F7FFF7;
+	padding: 5px;
+	text-align: center;
 }
 
 .projects a {
@@ -51,18 +68,38 @@ color: #F7FFF7;
 /* Work Experience
 -------------------------*/
 .work-experience {
-	background: #A1C6D7;
+	background: #199DBC;
+	padding-top: 0.25px;
+	padding-bottom: 3px;
+	text-align: center;
 }
 
 
 /* Education
 -------------------------*/
-
+.education	{
+background: #F7FFF7;
+padding: 5px;	
+text-align: center;
+}
 
 /* Contact
 -------------------------*/
 
 footer {
-	background: #343434;
-	color: #F7FFF7;
+	background: #199DBC;
+	color: #000000;
+	padding: 5px;	
+	text-align: center;
+}
+
+ul{
+list-style-type: none;	
+margin:25px;
+text-align: center;
+}	
+	
+ul li	{
+color: #000000;	
+background: #F7FFF7;
 }
